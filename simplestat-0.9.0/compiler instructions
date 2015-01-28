@@ -1,0 +1,5 @@
+To compile this project, use the following line:
+
+gcc -Wall -W -Werror simplestat.c -o SimpleStat -lmxml librdsensors.a librdstats.a librdstats_light.a libsyscom.a
+
+You MUST FIRST install the Mini-XML package in order for this to work.
